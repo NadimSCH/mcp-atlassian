@@ -52,4 +52,4 @@ ENV PATH="/app/.venv/bin:$PATH"
 # Authorization: Bearer <your_oauth_token>
 # X-Atlassian-Cloud-Id: <your_cloud_id>
 
-CMD ["mcp-atlassian", "--transport", "http", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["mcp-atlassian", "--transport", "streamable-http", "--host", "0.0.0.0", "--port", "8080"]
